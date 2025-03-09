@@ -9,7 +9,7 @@ const NavigationBar = () => {
         <Navbar.Brand as={Link} to="/">CrowdfundX</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="navbar navbar-expand-lg navbar-dark bg-dark w-100">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/campaigns">Campaigns</Nav.Link>
             <Nav.Link as={Link} to="/create">Start a Campaign</Nav.Link>
